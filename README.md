@@ -1,6 +1,6 @@
 # VacayHomes
 
-A Full Stack Web application for users to both reserve and rent properties as well as host new properties. The application has the following functionalities.
+A Full Stack Web application for users to reserve and rent properties as well as host new properties. The application has the following functionalities.
 
 * User login and signup: Login/Register a new user to the system.
 * Form validation and Check password strength. Store encrypted passwords in database.
