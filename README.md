@@ -12,4 +12,29 @@ A Full Stack Web application for users to both reserve and rent properties as we
 * Cancel Reservations - For users, reservations (both past and future) will be listed along with reservation dates. Cancel the reservation if it is before 48 hours before reservation date/time.
 
 
+### How to run
+
+Install [MongoDB](https://www.mongodb.com/docs/manual/administration/install-community/)
+
+For installation in Mac devices, follow these commands
+
+        brew tap mongodb/brew
+        brew install mongodb-community@6.0
+        sudo mkdir -p /System/Volumes/Data/data/db // create data dir
+        sudo chown -R `id -un` /System/Volumes/Data/data/db // giving permission to use folder
+        sudo mongod --dbpath /System/Volumes/Data/data/db // this will start the mongod process which listen in default port
+
+Go to the Server folder and run the following commands
+
+        npm i
+        nodemon
+
+Go to the client folder and run the following commands
+
+        npm i && npm start
+        
+
+
+
+
 
