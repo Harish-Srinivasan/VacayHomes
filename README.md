@@ -34,6 +34,9 @@ Go to the client folder and run the following commands
         npm i && npm start
         
 
+### Demo
+
+Watch a [demo](https://drive.google.com/file/d/18VQL4wJmy4q4v6Xxk_n2ido8g2HOH0MY/view?usp=sharing) of the app 
 
 
 
